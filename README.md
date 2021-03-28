@@ -144,7 +144,7 @@ const twitterDetails = {
   userName : "Your Twitter Username"
 };
 ```
-Note: Don't use `@` symbol when adding username.
+Note: Don't use `@` symbol when adding username..
 
 ## Technologies used 🛠️
 
