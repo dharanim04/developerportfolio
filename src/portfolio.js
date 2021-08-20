@@ -7,8 +7,8 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  title: "Hi all I'm Muhammad Kashaf",
-  subTitle: emoji("A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks"),
+  title: "Hi all I'm Dharani J",
+  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Wordpress and some other cool libraries and frameworks"),
   resumeLink: "https://drive.google.com/open?id=1OiR1hj5U0lBj1jKGv3Wa1tSVTwO37blq"
 };
 
@@ -16,19 +16,18 @@ const greeting = {
 
 const socialMediaLinks = {
 
-  github: "https://github.com/muhammadkashaf",
-  linkedin: "https://www.linkedin.com/in/kashaf-a-511a9a126/",
-  gmail: "kashafahmed72@gmail.com",
-  facebook: "https://www.facebook.com/kashafahmed2000"
+  github: "https://github.com/dharanim04",
+  linkedin: "https://www.linkedin.com/in/dharani-juturu/",
+  gmail: "dharani.m04@gmail.com"
 };
 
 // Your Skills Section
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY SOFTWARE DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
+    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web applications"),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji("⚡ Integration of third party services such as Firebase/ AWS")
   ],
@@ -76,10 +75,6 @@ const skillsSection = {
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ]
 };
@@ -91,15 +86,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      progressPercentage: "80%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "50%"
+      progressPercentage: "60%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     }
   ]
 };
@@ -116,15 +111,13 @@ const achievementSection = {
   subtitle: "Achievements, Certifications Award Letters and Some Cool Stuff that i have done !",
 
   achivementsCards: [
-
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu93Bd6LDbxPEOXr-hfLqLYzmHny8c0MJoI3exQP-lwpFLRT7g&s",
+      title: "Web  Developer",
+      subtitle: "Completed Certifcation ",
+      image: "",
       footerLink: [
         { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+        { name: "Final Project", url: "https://jwd05-generation.github.io/Final-Project-Task-Planner/" }
       ]
     }
   ]
@@ -138,8 +131,8 @@ const achievementSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi my inbox is open for all",
-  number: "+92-3145040651",
-  email_address: "kashafahmed72@gmail.com"
+  number: "best contact by email",
+  email_address: "dharani.m04@gmail.com"
 };
 
 

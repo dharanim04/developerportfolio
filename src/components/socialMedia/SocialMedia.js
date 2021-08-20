@@ -18,10 +18,10 @@ export default function socialMedia() {
         <span></span>
       </a>
     
-      <a href={socialMediaLinks.facebook} className="icon-button facebook" target="_blank">
+      {/* <a href={socialMediaLinks.facebook} className="icon-button facebook" target="_blank">
         <i className="fab fa-facebook-f"></i>
         <span></span>
-      </a>
+      </a> */}
     </div>
   );
 }

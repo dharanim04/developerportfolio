@@ -57,7 +57,7 @@ From your command line, clone and run developerFolio:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/saadpasta/developerFolio.git
+$ git clone https://github.com/dharanim04/developerFolio.git
 
 # Go into the repository
 $ cd developerFolio
@@ -104,17 +104,15 @@ For adding emoji 😃 into the texts in Portfolio.js, use the `emoji()` function
 const greeting = {
   /* Your Summary And Greeting Section */
   title: "Hi all I'm Saad",
-  subTitle: emoji("A passionate Full Stack Software Developer 🚀"),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  subTitle: emoji("A passionate Software Developer 🚀"),
+  resumeLink: ""
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  github: "https://github.com/dharanim04",
+  linkedin: "https://www.linkedin.com/in/dharani-juturu/",
+  gmail: "dharani.m04@gmail.com"
 };
 
 
