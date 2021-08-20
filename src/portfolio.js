@@ -108,18 +108,41 @@ const techStack = {
 const achievementSection = {
 
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications Award Letters and Some Cool Stuff that i have done !",
-
+  subtitle: "Achievements, Certifications and Some Cool Stuff that i have done !",
+  
   achivementsCards: [
     {
-      title: "Web  Developer",
-      subtitle: "Completed Certifcation ",
+      title: "Javascript Project from Bootcamp",
+      subtitle: "Task Manager ",
+      image:"images1/todoImage1.png" ,
+      footerLink: [
+        { name: "Check here", url: "https://jwd05-generation.github.io/Final-Project-Task-Planner/" }
+      ]
+    },
+    {
+      title: "Learn Bootstrap Course",
+      subtitle: "From Codeacademy Bootstrap 4.0",
       image: "",
       footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://jwd05-generation.github.io/Final-Project-Task-Planner/" }
+        { name: "Certificate Link", url: "https://www.codecademy.com/profiles/DharaniJuturu/certificates/0595479d03627a8cb816b069000e4d06" }
       ]
-    }
+    },
+    {
+      title: "Learn JavaScript Course",
+      subtitle: "From Codeacademy Javascript ES6",
+      image: "",
+      footerLink: [
+        { name: "Certificate Link", url: "https://www.codecademy.com/profiles/DharaniJuturu/certificates/705dcb15de0da4dd9d9fc4f3274b430e" }
+      ]
+    },
+    {
+      title: "Learn React Course",
+      subtitle: "From Codeacademy",
+      image: "",
+      footerLink: [
+        { name: "Certificate Link", url: "https://www.codecademy.com/profiles/DharaniJuturu/certificates/af00e5032d0a68cc84879983f5d8333b" }
+      ]
+    },
   ]
 };
 
