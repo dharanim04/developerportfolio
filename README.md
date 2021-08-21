@@ -25,7 +25,7 @@ If you created something awesome and want to contribute then feel free to open P
 ✔️ Achievements And Certifications 🏆\
 ✔️ Contact me
 
-To view a live example, **[click here](https://saadpasta.github.io/)**
+To view a live example, **[click here](https://dharanim04.github.io/developerportfolio/)**
 
 
 ## Getting Started 🚀
@@ -143,9 +143,6 @@ Note: Don't use `@` symbol when adding username..
 ## Technologies used 🛠️
 
 - [React](https://reactjs.org/)
-- [graphql](https://graphql.org/) 
-- [apollo-boost](https://www.apollographql.com/docs/react/get-started/) 
-- [react-twitter-embed](https://github.com/saurabhnemade/react-twitter-embed)
 - [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
 
 ## Illustrations
@@ -160,14 +157,7 @@ You could also deploy it directly with Netlify by linking your own repo.
 [![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/saadpasta/developerFolio)
 
 
-
-## License 📄
-
-This project is licensed under the GPL-3.0 License - see the [LICENSE](./LICENSE) file for details
-
-
-
-
+<!-- 
 ## For the Future 
 If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/saadpasta/developerFolio/pulls).
 
@@ -178,7 +168,7 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
 - Enable Dark Mode
 
 - Add More Sections and Move to Multi Page
-
+ -->
 
 <!-- ## Contributors ✨
 
