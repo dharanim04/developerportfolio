@@ -21,6 +21,9 @@ function Header() {
             <a href="#skills">Skills</a>
           </li>
           <li>
+            <a href="#myprojects">Projects</a>
+          </li>
+          <li>
             <a href="#achievements">Achievements</a>
           </li>
           <li>

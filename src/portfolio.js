@@ -28,8 +28,8 @@ const skillsSection = {
   subTitle: "CRAZY SOFTWARE DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji("⚡ Develop highly interactive Front end / User Interfaces for your web applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS")
+    emoji("⚡ Progressive Web Applications using different frameworks"),
+    emoji("⚡ Developed CMS websites using wordpress")
   ],
 
   /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -56,21 +56,25 @@ const skillsSection = {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
+    // {
+    //   skillName: "nodejs",
+    //   fontAwesomeClassname: "fab fa-node"
+    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
+    // {
+    //   skillName: "aws",
+    //   fontAwesomeClassname: "fab fa-aws"
+    // },
+    // {
+    //   skillName: "firebase",
+    //   fontAwesomeClassname: "fas fa-fire"
+    // },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "wordpress",
+      fontAwesomeClassname: "fab fa-wordpress"
     },
     {
       skillName: "python",
@@ -85,16 +89,21 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
+      Stack: "Frontend/Design- HTML5,Css3,BootStrap4.0,Javascript,ReactJS",  //Insert stack or technology you have experience in
       progressPercentage: "80%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Programming-C#.Net,Core Java,Python",
       progressPercentage: "60%"
     },
     {
-      Stack: "Programming",
+      Stack: "Database-MS-SQL Server,MySql,Oracle",
       progressPercentage: "70%"
+    },
+    ,
+    {
+      Stack: "Testing- Selenium,TOSCA,Mocha chai ",
+      progressPercentage: "50%"
     }
   ]
 };
@@ -112,15 +121,7 @@ const achievementSection = {
   
   achivementsCards: [
     {
-      title: "Javascript Project from Bootcamp",
-      subtitle: "Task Manager ",
-      image:"images1/todoImage1.png" ,
-      footerLink: [
-        { name: "Check here", url: "https://jwd05-generation.github.io/Final-Project-Task-Planner/" }
-      ]
-    },
-    {
-      title: "Learn Bootstrap Course",
+      title: "BootstrapCss",
       subtitle: "From Codeacademy Bootstrap 4.0",
       image: "",
       footerLink: [
@@ -128,7 +129,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Learn JavaScript Course",
+      title: "JavaScript",
       subtitle: "From Codeacademy Javascript ES6",
       image: "",
       footerLink: [
@@ -136,7 +137,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Learn React Course",
+      title: "React JS",
       subtitle: "From Codeacademy",
       image: "",
       footerLink: [
@@ -146,6 +147,57 @@ const achievementSection = {
   ]
 };
 
+
+// Your Achievement Section Include Your Certification Talks and More
+
+const myprojectDetails = {
+
+  title: emoji("My Projects 💻 "),
+  subtitle: "Designed 🎨 and developed projects ",
+  
+  myprojects: [
+    {
+      title: "As Web Developer",
+      subtitle: "Heartfulness Institute Australia ",
+      image: "images1/heartfulnessImg.jpg",
+      footerLink: [
+        { name: "Check here", url: "https://www.heartfulnessinstitute.org.au/" }
+      ]
+    },
+    {
+      title: "Task Manager",
+      subtitle: "Javascript Project from Bootcamp",
+      image:"images1/todoImage1.png" ,
+      footerLink: [
+        { name: "Check here", url: "https://jwd05-generation.github.io/Final-Project-Task-Planner/" }
+      ]
+    },
+    {
+      title: "Food Blog- pinchOfSalt",
+      subtitle: "Technologies used: HTML5, Css3, Bootstap4.0 and JS",
+      image: "images1/foodblog.JPG",
+      footerLink: [
+        { name: "Check here", url: "https://dharanim04.github.io/pinchOfSalt/" }
+      ]
+    },
+    {
+      title: "Vintage Cards",
+      subtitle: "Technologies used: HTML5, Css3, Bootstap4.0",
+      image: "images1/vintageCarsImg.JPG",
+      footerLink: [
+        { name: "Check here", url: "https://dharanim04.github.io/WebAssessmentVintageCars/" }
+      ]
+    }
+  ]
+};
+
+/* Your Open Source Section to View Your Github Pinned Projects
+To know how to get github key look at readme.md */
+
+// const openSource = {
+//   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to false
+//   display: true, // Set false to hide this section, defaults to true
+// };
 
 
 
@@ -159,4 +211,4 @@ const contactInfo = {
 };
 
 
-export { greeting, socialMediaLinks, skillsSection, techStack, achievementSection, contactInfo };
+export { greeting, socialMediaLinks, skillsSection, techStack, achievementSection, myprojectDetails, contactInfo };
