@@ -29,7 +29,7 @@ const skillsSection = {
   skills: [
     emoji("⚡ Develop highly interactive Front end / User Interfaces for web applications"),
     // emoji("⚡ Progressive Web Applications using different frameworks"),
-    emoji("⚡ Proven experience in designing, development, coding and unit testing of Web applications, Windows applications"),
+    emoji("⚡ Proven experience in designing, development, coding and unit testing of Web applications and Windows applications"),
     emoji("⚡ Deployment Extensive experience in application development using Microsoft.NET."),
     emoji("⚡ Developed CMS websites using WordPress")
   ],
@@ -140,6 +140,38 @@ const achievementSection = {
       image: "",
       footerLink: [
         { name: "Certificate Link", url: "https://www.codecademy.com/profiles/DharaniJuturu/certificates/af00e5032d0a68cc84879983f5d8333b" }
+      ]
+    },
+    {
+      title: "Automation Specialist Level 1",
+      subtitle: "From Tricentis Tosca 12.x",
+      image: "",
+      footerLink: [
+        { name: "Credential ID: COC0125447", url: "" }
+      ]
+    },
+    {
+      title: "Automation Specialist Level 2",
+      subtitle: "From Tricentis Tosca 12.x",
+      image: "",
+      footerLink: [
+        { name: "Credential ID: COC0126108", url: "" }
+      ]
+    },
+    {
+      title: "Automation Engineer Level-1",
+      subtitle: "From Tricentis Tosca 12.x",
+      image: "",
+      footerLink: [
+        { name: "Credential ID: COC0130720", url: "" }
+      ]
+    },
+    {
+      title: "Python Programming Language",
+      subtitle: "From TAFE NSW",
+      image: "",
+      footerLink: [
+        { name: "ICTPRG301, ICTPRG413", url: "" }
       ]
     },
   ]

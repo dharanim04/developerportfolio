@@ -16,7 +16,29 @@
     background-color: #aaa5ff;
     position: relative;
     overflow: hidden;
+    animation: load 5s normal forwards;
+
+    background-image: linear-gradient(
+        45deg, #c7c5ec 25%, 
+        transparent 25%, transparent 50%, 
+        #c7c5ec 50%, #c7c5ec 75%,
+        transparent 75%, transparent); 
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.767), 0 1px rgba(197, 195, 195, 0.884);
+  /* animation: progressAnimationStrike 6s; */
 }
+.meter > span:hover{
+    animation: movebar 2s linear infinite;
+}
+
+@keyframes load {
+    0% { width: 0; }
+    /* 100% { width: 68%; } */
+  }
+  @keyframes movebar {
+    0% { width: 0; }
+    /* 100% { width: 68%; } */
+  }
+
 .skill{
     line-height: 3.5vw;
 }
