@@ -1,5 +1,5 @@
 {
-  "homepage": "https://dharanim04.github.io/developerPortfolio",
+  "homepage": "https://dharanim04.github.io/developerportfolio",
   "name": "developerportfolio",
   "version": "0.1.0",
   "private": true,
@@ -42,11 +42,11 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dharanim04/developerPortfolio.git"
+    "url": "git+https://github.com/dharanim04/developerportfolio.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dharanim04/developerPortfolio/issues"
+    "url": "https://github.com/dharanim04/developerportfolio/issues"
   }
 }
