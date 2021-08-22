@@ -154,9 +154,9 @@ I highly recommend to use [Github Pages](https://create-react-app.dev/docs/deplo
 
 You could also deploy it directly with Netlify by linking your own repo.
 
-[![Deploy To Netlify]
+[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/saadpasta/developerFolio)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/33d2fe0a-be36-42d6-8d77-5f9fb23dc773/deploy-status)](https://app.netlify.com/sites/dharani-portfolio/deploys)
+
 <!-- 
 ## For the Future 
 If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/saadpasta/developerFolio/pulls).
