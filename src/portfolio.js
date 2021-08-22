@@ -256,7 +256,7 @@ const myprojectDetails = {
     {
       title: "Task Manager",
       subtitle: "Javascript Project from Bootcamp",
-      image:"images1/todoImage1.png" ,
+      image:"images1/todoImage2.JPG" ,
       footerLink: [
         { name: "Check here", url: "https://jwd05-generation.github.io/Final-Project-Task-Planner/" }
       ]

@@ -12,6 +12,12 @@
   .card-image {
     height: 150px;
     width: 180px;
+    border: 1.5px solid rgba(138, 136, 136, 0.397);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+    transition: transform 1.3s;
+  }
+  .card-image:hover {
+    transform: scale(1.5);
   }
   
   .card-title {
