@@ -110,73 +110,132 @@ const techStack = {
   ]
 };
 
-// Your Achievement Section Include Your Certification Talks and More
+// // Your Achievement Section Include Your Certification Talks and More
 
-const achievementSection = {
+// const achievementSection = {
 
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications and Some Cool Stuff that i have done !",
+//   title: emoji("Achievements And Certifications 🏆 "),
+//   subtitle: "Achievements, Certifications and Some Cool Stuff that i have done !",
   
-  achivementsCards: [
-    {
-      title: "BootstrapCss",
-      subtitle: "From Codeacademy Bootstrap 4.0",
-      image: "",
-      footerLink: [
-        { name: "Certificate Link", url: "https://www.codecademy.com/profiles/DharaniJuturu/certificates/0595479d03627a8cb816b069000e4d06" }
-      ]
-    },
-    {
-      title: "JavaScript",
-      subtitle: "From Codeacademy Javascript ES6",
-      image: "",
-      footerLink: [
-        { name: "Certificate Link", url: "https://www.codecademy.com/profiles/DharaniJuturu/certificates/705dcb15de0da4dd9d9fc4f3274b430e" }
-      ]
-    },
-    {
-      title: "React JS",
-      subtitle: "From Codeacademy",
-      image: "",
-      footerLink: [
-        { name: "Certificate Link", url: "https://www.codecademy.com/profiles/DharaniJuturu/certificates/af00e5032d0a68cc84879983f5d8333b" }
-      ]
-    },
-    {
-      title: "Automation Specialist Level 1",
-      subtitle: "From Tricentis Tosca 12.x",
-      image: "",
-      footerLink: [
-        { name: "Credential ID: COC0125447", url: "" }
-      ]
-    },
-    {
-      title: "Automation Specialist Level 2",
-      subtitle: "From Tricentis Tosca 12.x",
-      image: "",
-      footerLink: [
-        { name: "Credential ID: COC0126108", url: "" }
-      ]
-    },
-    {
-      title: "Automation Engineer Level-1",
-      subtitle: "From Tricentis Tosca 12.x",
-      image: "",
-      footerLink: [
-        { name: "Credential ID: COC0130720", url: "" }
-      ]
-    },
-    {
-      title: "Python Programming Language",
-      subtitle: "From TAFE NSW",
-      image: "",
-      footerLink: [
-        { name: "ICTPRG301, ICTPRG413", url: "" }
-      ]
-    },
-  ]
-};
+//   achivementsCards: [
+//     {
+//       title: "BootstrapCss",
+//       subtitle: "From Codeacademy Bootstrap 4.0",
+//       image: "",
+//       footerLink: [
+//         { name: "Certificate Link", url: "https://www.codecademy.com/profiles/DharaniJuturu/certificates/0595479d03627a8cb816b069000e4d06" }
+//       ]
+//     },
+//     {
+//       title: "JavaScript",
+//       subtitle: "From Codeacademy Javascript ES6",
+//       image: "",
+//       footerLink: [
+//         { name: "Certificate Link", url: "https://www.codecademy.com/profiles/DharaniJuturu/certificates/705dcb15de0da4dd9d9fc4f3274b430e" }
+//       ]
+//     },
+//     {
+//       title: "React JS",
+//       subtitle: "From Codeacademy",
+//       image: "",
+//       footerLink: [
+//         { name: "Certificate Link", url: "https://www.codecademy.com/profiles/DharaniJuturu/certificates/af00e5032d0a68cc84879983f5d8333b" }
+//       ]
+//     },
+//     {
+//       title: "Automation Specialist Level 1",
+//       subtitle: "From Tricentis Tosca 12.x",
+//       image: "",
+//       footerLink: [
+//         { name: "Credential ID: COC0125447", url: "" }
+//       ]
+//     },
+//     {
+//       title: "Automation Specialist Level 2",
+//       subtitle: "From Tricentis Tosca 12.x",
+//       image: "",
+//       footerLink: [
+//         { name: "Credential ID: COC0126108", url: "" }
+//       ]
+//     },
+//     {
+//       title: "Automation Engineer Level-1",
+//       subtitle: "From Tricentis Tosca 12.x",
+//       image: "",
+//       footerLink: [
+//         { name: "Credential ID: COC0130720", url: "" }
+//       ]
+//     },
+//     {
+//       title: "Python Programming Language",
+//       subtitle: "From TAFE NSW",
+//       image: "",
+//       footerLink: [
+//         { name: "ICTPRG301, ICTPRG413", url: "" }
+//       ]
+//     },
+//   ]
+// };
 
+// Blogs Section
+
+const blogSection = {
+  title: emoji("Certifications 🏆 "),
+  subtitle:
+    "With Love for Developing cool stuff, I have earned some certifications.",
+
+  blogs: [
+    {
+      url:
+        "https://www.codecademy.com/profiles/DharaniJuturu/certificates/0595479d03627a8cb816b069000e4d06",
+      title: "CSS3-Bootstrap",
+      description:
+        "From Codeacademy Bootstrap 4.0",
+    },
+    {
+      url:
+        "https://www.codecademy.com/profiles/DharaniJuturu/certificates/705dcb15de0da4dd9d9fc4f3274b430e",
+      title: "JavaScript",
+      description:
+        "From Codeacademy Javascript ES6",
+    },
+    {
+      url:
+        "https://www.codecademy.com/profiles/DharaniJuturu/certificates/af00e5032d0a68cc84879983f5d8333b",
+      title: "React JS",
+      description:
+        "From Codeacademy",
+    },
+    {
+      url:
+        "",
+      title: "Automation Specialist Level 1",
+      description:
+        "From Tricentis Tosca 12.x",
+    },
+    {
+      url:
+        "",
+      title: "Automation Specialist Level 2",
+      description:
+        "From Tricentis Tosca 12.x",
+    },
+    {
+      url:
+        "",
+      title: "Automation Engineer Level-1",
+      description:
+        "From Tricentis Tosca 12.x",
+    },
+    {
+      url:
+        "",
+      title: "Python Programming Language",
+      description:
+        "From TAFE NSW",
+    },
+  ],
+};
 
 // Your project displays Section Include Your worked projects and More
 
@@ -238,4 +297,5 @@ const contactInfo = {
 };
 
 
-export { greeting, socialMediaLinks, skillsSection, techStack, achievementSection, myprojectDetails, contactInfo };
+export { greeting, socialMediaLinks, skillsSection, techStack, blogSection, myprojectDetails, contactInfo };
+// achievementSection,
