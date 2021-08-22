@@ -157,7 +157,7 @@ const myprojectDetails = {
     {
       title: "As Web Developer",
       subtitle: "Heartfulness Institute Australia ",
-      image: "images1/heartfulnessImg.jpg",
+      image: "images1/heartfulnessImg.JPG",
       footerLink: [
         { name: "Check here", url: "https://www.heartfulnessinstitute.org.au/" }
       ]
