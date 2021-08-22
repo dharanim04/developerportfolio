@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   title: "Hi all I'm Dharani J",
   subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Wordpress and some other cool libraries and frameworks"),
-  resumeLink: "https://drive.google.com/open?id=1OiR1hj5U0lBj1jKGv3Wa1tSVTwO37blq"
+  resumeLink: ""
 };
 
 // Your Social Media Link
