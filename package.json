@@ -6,7 +6,6 @@
   "dependencies": {
     "@apollo/react-hooks": "^3.1.5",
     "apollo-boost": "^0.4.4",
-    "gh-pages": "^2.1.1",
     "graphql": "^14.5.8",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
@@ -48,5 +47,8 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dharanim04/developerportfolio/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }

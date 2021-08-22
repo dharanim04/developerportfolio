@@ -27,9 +27,11 @@ const skillsSection = {
   title: "What i do",
   subTitle: "CRAZY SOFTWARE DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web applications"),
-    emoji("⚡ Progressive Web Applications using different frameworks"),
-    emoji("⚡ Developed CMS websites using wordpress")
+    emoji("⚡ Develop highly interactive Front end / User Interfaces for web applications"),
+    // emoji("⚡ Progressive Web Applications using different frameworks"),
+    emoji("⚡ Proven experience in designing, development, coding and unit testing of Web applications, Windows applications"),
+    emoji("⚡ Deployment Extensive experience in application development using Microsoft.NET."),
+    emoji("⚡ Developed CMS websites using WordPress")
   ],
 
   /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -108,10 +110,6 @@ const techStack = {
   ]
 };
 
-
-
-
-
 // Your Achievement Section Include Your Certification Talks and More
 
 const achievementSection = {
@@ -148,7 +146,7 @@ const achievementSection = {
 };
 
 
-// Your Achievement Section Include Your Certification Talks and More
+// Your project displays Section Include Your worked projects and More
 
 const myprojectDetails = {
 
@@ -198,9 +196,6 @@ To know how to get github key look at readme.md */
 //   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to false
 //   display: true, // Set false to hide this section, defaults to true
 // };
-
-
-
 
 
 const contactInfo = {
