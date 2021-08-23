@@ -24,7 +24,7 @@ function Header() {
             <a href="#myprojects">Projects</a>
           </li>
           <li>
-            <a href="#achievements">Achievements</a>
+            <a href="#blogs">Certifications</a>
           </li>
           <li>
             <a href="#contact">Contact Me</a>

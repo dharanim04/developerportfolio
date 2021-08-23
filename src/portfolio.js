@@ -7,7 +7,7 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  title: "Hi all I'm Dharani J",
+  title: "Hi all I'm ",
   subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Wordpress and some other cool libraries and frameworks"),
   resumeLink: ""
 };

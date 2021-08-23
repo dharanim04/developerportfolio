@@ -20,15 +20,17 @@ export default class Main extends Component {
     return (
       <div>
         <Header />
-        <Greeting />
-        <Skills />
-        <StackProgress /> 
-        <MyprojectDetails /> 
-        <Blogs />
-        {/* <Achievement /> */}
-        <Contact />
-        <Footer />
-        <Top />
+        <div class="container">
+          <Greeting />
+          <Skills />
+          <StackProgress />
+          <MyprojectDetails />
+          <Blogs />
+          {/* <Achievement /> */}
+          <Contact />
+          <Footer />
+          <Top />
+        </div>
       </div>
     );
   }
