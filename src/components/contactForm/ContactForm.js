@@ -2,9 +2,9 @@ import emailjs from "emailjs-com";
 import React,{useState} from "react";
 import validator from 'validator';
 
-
 export default function ContactForm() {
-  const [emailError, setEmailError] = useState('')
+  const [emailError, setEmailError] = useState('');
+  const [emailSendMsg, setemailSendMsg] = useState('');
   const validateEmail = (e) => {
     var email = e.target.value
     if (validator.isEmail(email)) {
@@ -19,6 +19,7 @@ export default function ContactForm() {
         emailjs.sendForm('service_dharani2310', 'template_avsbbel', e.target, 'user_wV4zqkzZyDvyvktLBaBzr')
           .then((result) => {
               console.log(result.text);
+              setemailSendMsg('Thank you for contacting me :)');
           }, (error) => {
               console.log(error.text);
           });
@@ -36,10 +37,7 @@ export default function ContactForm() {
     </div>
     <div className="col-6 ">
       <input type="email" className="form-control contact-input" placeholder="Email Address" name="user_email" onChange={(e) => validateEmail(e)} />
-      <span style={{
-          fontWeight: '400',
-          color: 'red',
-        }}>{emailError}</span>
+      <span className="text-danger">{emailError}</span>
     </div>
     </div>
     <div className="row form-group">
@@ -52,6 +50,7 @@ export default function ContactForm() {
         <button type="submit" class="main-button" value="Send">Contact</button>
         </div>
     </div>
+    <span className=" text-primary">{emailSendMsg}</span>
 </form>
   );
 }
