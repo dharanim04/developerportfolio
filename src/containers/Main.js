@@ -15,6 +15,7 @@ import Footer from "../components/footer/Footer";
 import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 
+
 export default class Main extends Component {
   render() {
     return (
@@ -28,6 +29,7 @@ export default class Main extends Component {
           <Blogs />
           {/* <Achievement /> */}
           <Contact />
+         
           <Footer />
           <Top />
         </div>

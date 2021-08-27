@@ -6,13 +6,15 @@
   "dependencies": {
     "@apollo/react-hooks": "^3.1.5",
     "apollo-boost": "^0.4.4",
+    "emailjs-com": "^3.2.0",
     "graphql": "^14.5.8",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-easy-emoji": "^1.4.0",
     "react-reveal": "^1.2.2",
     "react-scripts": "3.2.0",
-    "react-twitter-embed": "3.0.3"
+    "react-twitter-embed": "3.0.3",
+    "validator": "^13.6.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,10 +37,9 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ] 
+    ]
   },
-
-    "devDependencies": {
-      "gh-pages": "^2.2.0"
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }

@@ -14,7 +14,7 @@
 .contact-detail,
 .contact-detail-email {
     margin-top: 20px;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 400;
     color: #868e96;
     text-decoration: none;
@@ -38,12 +38,24 @@
 .contact-margin-top {
     margin-top: 4rem;
 }
-
+.contact-right-col{
+    margin-left: 2rem;
+}
 .contact-image-div > img {
     max-width: 100%;
     height: auto;
     margin-left: 1.5rem;
     margin-top: -4rem;
+   
+}
+.contact-input{
+    border-radius: 20px;
+    background-color: #efeeff;
+    box-shadow: 0 0 6px rgb(0 0 0 / 10%);
+}
+.contact-input:focus{
+    border-color: #55198b;
+    box-shadow: 1px 1px 1px 1px #55198b;
 }
 
 /* Media Query */
@@ -72,7 +84,7 @@
 
     .contact-detail,
     .contact-detail-email {
-        font-size: 20px;
+        font-size: 10px;
     }
 
     .contact-image-div {
